@@ -5,7 +5,7 @@ app = Sanic()
 
 @app.route("/")
 async def main(request):
-    return json({"name": "Hello Flask MongoDB Example"})
+    return json({"name": "Hello Flask MongoDB forks"})
 
 @app.route("/users/<name>")
 async def get_user_by_id(request, name):
